@@ -32,7 +32,7 @@ if __name__ == '__main__':
     DogName = input('Entre com o nome do seu cachorro: ')
     DogAge = int(input('Entre com a idade do seu cachorro: '))
 
-    myDog = Dog(logging,DogName, DogAge)
+    myDog = Dog(logging, DogName, DogAge)
 
     print(f'O nome do meu cachorro é {myDog.name}.')
     print(f'Meu cachorro tem {myDog.age} anos.')
