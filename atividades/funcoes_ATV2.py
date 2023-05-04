@@ -49,3 +49,43 @@ class Aluno:
         else:
             print('Aluno reprovado!')
         
+
+class SomaMatriz:
+    '''
+    Classe que retorna a soma das linhas de uma matriz 5X5
+    '''
+    def inicializa_matriz():
+        '''
+        Função que recebe os valores de formato da matriz
+        '''
+        size = int(input('Entre com o número de linhas da sua matriz quadrada: '))
+        A = np.zeros((size, size))
+        return size, A
+
+    def recebe_valores(size, A):
+        '''
+        Função que recebe os valores que compõe a matriz
+        '''
+        nc = nl = size
+        for i in range(0, nl):
+            for j in range(0, nc):
+                z = 'Informe o valor A[%d][%d] ' % (i, j)
+                A[i][j] = float(input(z))
+        return A
+    
+    def retorna_matriz(A):
+        '''
+        Função que printa os valores que constituem a matriz
+        '''
+        print(A)
+
+    def soma_linhas(size,A):
+        '''
+        Função que printa os valores que constituem a matriz
+        '''
+        nl = nc = size
+        soma = np.zeros((nl, 1))
+        for i in range(0, nl):
+            for j in range(0, nc):
+                soma[i] += A[i][j]
+        print(soma)
