@@ -75,4 +75,19 @@ if( ((a>b)|(c!=0))& (b==c) ){
 
 # 1.5 Estruturas de Repetição
  # For
+print('primeiro exemplo')
+for(i in 1:3){
+  print(i)
+}
+
+print('segundo exemplo')
+for(x in 1:4){
+  print('Iteração')
+}
  # While
+x <- 3
+while(x>0){
+   print(x)
+   x <- x-1
+}
+
