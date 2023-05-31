@@ -9,7 +9,7 @@
 # Carregando os dados
 data("iris")
 
-# Visualizando as primeira e últimas observações
+# Visualizando as primeiras e últimas observações
 head(iris)
 tail(iris)
 

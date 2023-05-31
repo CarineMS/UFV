@@ -5,6 +5,7 @@
 Modelos Estatísticos para Reconhecimento de Padrões
 * Componentes Principais
 * Análise de Agrupamento
+* Regressão Simples e Múltipla
 * 
 
 
