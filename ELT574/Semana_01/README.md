@@ -25,7 +25,7 @@ Etapas de construção de um modelo de Machine Learning:
 	6. Validação do modelo e estimativa de desempenho com os dados de validação.
 	7. Implementação do modelo para a aplicação.
 
-S01A02 - Tipos de Dados e Tratamento de Entradas
+## S01A02 - Tipos de Dados e Tratamento de Entradas
 
 Problemas de aprendizado de máquinas são problemas relacionados às tarefas apresentados como conjunto de casos ou exemplos, ao invés de regras pré-definidas. São aplicados em amplas áreas, como engenharia ou medicina.
  O processo de aprendizado de máquinas consiste em encontrar relações entre conjunto de dados de entradas e suas respectivas saídas conhecidas, utilizando somente os exemplos fornecidos para descobrir a relação entre eles, para predizer as saídas para um conjunto de entradas que não foram apresentados anteriormente. Os exemplos fornecidos são chamados de dados de treinamento. Se a máquina conseguir bom desempenho nas novas atribuições, dizemos que ela atingiu a capacidade de generalização.
@@ -72,4 +72,4 @@ Problemas de aprendizado de máquinas são problemas relacionados às tarefas ap
 			i. Evitar dados destoantes (outlier)
 			ii. Considere µ a média de uma variável x e o σ desvio padrão
 			iii. Se µ - 3 σ > x_i>µ + 3 σ , provavelmente x_i  é um outlier
-Na dúvida, realize o ajuste do modelo com e sem estes valores.
+			iv. Na dúvida, realize o ajuste do modelo com e sem estes valores.
